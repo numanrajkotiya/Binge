@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <title>Binge</title>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="style/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Binge is the premiere destination for all your entertainment needs. But don't take our word for it–check out your favorite movies and TV shows, absolutely free.">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="description" content="Binge is the premiere destination for all your entertainment needs. But don't take our word for it–check out your favorite movies and TV shows, absolutely free.">
     
 </head>
 <body>
@@ -26,10 +26,14 @@
                     <a class="nav-link" href="movies.html">Movies</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Sign in</a>
+                    <a class="nav-link" href="about.html">About us</a>
                 </li>
+            </ul>
+        </div>
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">About Us</a>
+                   <a href="signin.html"><button type="submit" id="signin" class="btn btn-block" name="signin">Sign In</button></a>
                 </li>
             </ul>
         </div>
@@ -40,7 +44,7 @@
             <h2>Watch your favorite shows and movies for free.</h2>
             <p>Binge is the premiere destination for all your entertainment needs. But don't take our word for it–check out your favorite movies and TV shows, absolutely free.</p>
         </div>
-        <button type="submit" id="watch-now" class="btn btn-block" name="watch-now" onclick="location.href='movies.html'">WATCH NOW</button>
+       <a href="movies.html"><button type="submit" id="watch-now" class="btn btn-block" name="watch-now">WATCH NOW</button></a>
     </div>
 
 </body>
