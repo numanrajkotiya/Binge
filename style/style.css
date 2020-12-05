@@ -54,6 +54,15 @@ body{
     color: #e5e5e5;
 }
 
+#signin{
+    width: 90px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 550;
+    line-height: normal;
+    background-color: #E50914;
+}
+
 #watch-now,
 #watch-now1,
 #watch-now2,
@@ -144,9 +153,7 @@ body{
     justify-content: center;
 }
 
-.binge h1{
-    margin-top: 10px;
-    font-size: 551px;
+.binge h2{
     color: #E50914;
     font-weight: bold;
 }
@@ -189,10 +196,100 @@ body{
     font-size: 16px;
 }
 
+.overlay{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.wrapped{
+    padding:25px;
+    width: 340px;
+    height: 430px;
+    display: flex;
+    border-radius: 8px;
+	position: relative;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 1px #fff;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-signin h1{
+    color: white
+}
+
+.form-signin label{
+    color: gray
+}
+  
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin button{
+    color: white;
+    background-color:  #E50914;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[id="sEmail"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[id="rEmail"] {
+    margin-bottom: 0px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+   }
+}
 
 @media screen and (min-width: 801px) {
     #binge{
         font-size: 50px;
+    }
+    #signin{
+        margin-right: 50px;
     }
     .info h2 {
       font-size: 70px;
@@ -206,12 +303,12 @@ body{
     .content p{
         font-size: 16px;
     }
-    .binge h1{
-        font-size: 55px;
+    .binge h2{
+        font-size: 50px;
         margin-left: 100px;
     }
     .binge p{
-        font-size: 22px;
+        font-size: 21px;
         margin-left: 100px;
     }
     .social{
@@ -227,6 +324,10 @@ body{
     #binge{
         font-size: 38px;
     }
+    #signin{
+        margin-top: 10px;
+        margin-left: 25px;
+    }
     .info h2 {
       font-size: 36px;
     }
@@ -239,7 +340,7 @@ body{
     .content p{
         font-size: 13px;
     }
-    .binge h1{
+    .binge h2{
         font-size: 35px;
         margin-left: 50px;
     }
